@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+    
+    .logo>img{
+        width: 80%;
+    }
+    .search{
+        width: 200px;
+    }
+    .searchbar{
+        width: 40%;
+        // border: 1px solid teal;
+    }
+    .account{
+        width: 40%;
+        // border: 1px solid teal;
+    }
+    .bell{
+        width: 20px;
+    }
+    .account>div:nth-child(2){
+        // border: 1px solid red;
+        font-size: 13px;
+    }
+
+}

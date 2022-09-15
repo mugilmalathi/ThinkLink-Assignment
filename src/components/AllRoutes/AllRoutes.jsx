@@ -8,7 +8,6 @@ const AllRoutes = () => {
   return (
     <div>
         <Navbar />
-        <Sidebar />
         <Routes>
             <Route path="/" element={<Home />} />
         </Routes>

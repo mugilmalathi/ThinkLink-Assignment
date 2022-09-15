@@ -1,0 +1,71 @@
+.navbar{
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    background-color: #811434;
+    // border: 1px solid red;
+}
+.logo{
+    width: 20%;
+    height: 7vh;
+    display: flex;
+    // justify-content: center;
+    padding-left: 2%;
+    align-items: center;
+    cursor: pointer;
+    // border: 1px solid teal;
+}
+.searchbar{
+    width: 60%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    // border: 1px solid teal;
+}
+.search{
+    width: 40%;
+    border: 1px solid transparent;
+    height: 50%;
+    border-radius: 5px;
+    padding-left: 5%;
+}
+.account{
+    width: 20%;
+    height: 7vh;
+    display: flex;
+    // border: 1px solid teal;
+}
+.account>div:nth-child(1){
+    width: 20%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid red;
+}
+.account>div:nth-child(2){
+    width: 50%;
+    height: 7vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family:"Open Sans";
+    font-weight: bold;
+    color: white;
+    font-size: 23px;
+    padding-right: 2%;
+    // border: 1px solid red;
+}
+.account>div:nth-child(3){
+    width: 30%;
+    height: 7vh;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    // border: 1px solid red;
+}
+.downarrow{
+    padding-left: 5%;
+    cursor: pointer;
+}
