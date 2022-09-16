@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Sidebar.scss"
+import "../Responsive/responsive.scss"
 
 import { BiLaptop } from "react-icons/bi";
 import orders from "../Assets/Svg/orders.svg"

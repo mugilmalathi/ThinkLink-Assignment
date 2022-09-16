@@ -21,5 +21,23 @@
         // border: 1px solid red;
         font-size: 13px;
     }
+    .home{
+        border: 1px solid red;
+    }
+    .sidebar-nav{
+        font-size: small;
+    }
+    .sidebar{
+        border: 1px solid red;
+    }
+    .content{
+        width: 120%;
+        border: 1px solid red;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
 
 }

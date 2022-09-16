@@ -2,20 +2,20 @@ import React from 'react'
 import { useState } from 'react'
 import Sidebar from '../Sidebar/Sidebar'
 import "./Home.scss"
+import "../Responsive/responsive.scss"
+
+import Overview from './Overview'
+import OverviewCards from './OverviewCards'
 
 const Home = () => {
-
-  // const [slide, setSlide] = useState("80%")
-
-  // const handleSlide = ()=>{
-  //   setSlide("100%")
-  // }
 
   return (
     <div className='home'>
       <Sidebar />
-      {/* <div className='slide' onClick={handleSlide}></div> */}
-      <div className='content'></div>
+      <div className='content'>
+        <Overview />
+        <OverviewCards />
+      </div>
     </div>
   )
 }
