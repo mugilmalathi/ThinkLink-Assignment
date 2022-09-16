@@ -9,7 +9,7 @@ import downarrow from "../Assets/Svg/downarrow.svg"
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
+    <div className='navbar' style={{marginTop:"-50px"}}>
 
       <div className='logo'>
         <img src={logo} alt={logo} />
