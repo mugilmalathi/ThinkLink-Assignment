@@ -36,9 +36,9 @@ Navbar:
  <br />
   Overview Cards:
   ![](/ScreenShots/card.png)
-   Graphs:
+   Graph:
    ![](/ScreenShots/graph.png)
-    Data:
+    User Data:
     ![](/ScreenShots/data.png)
      Data Expanding:
      ![](/ScreenShots/expand.png)
