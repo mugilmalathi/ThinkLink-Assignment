@@ -28,7 +28,7 @@
   Snapshots:
   
 Navbar:
-![](/MartImages/mart1.png)
+![](/ScreenShot/mart1.png)
 Landing Page:
 ![](/MartImages/mart2.png)
  Footer:
