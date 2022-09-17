@@ -12,7 +12,9 @@ import { useState } from 'react';
 
 const Sidebar = () => {
 
-  const [textcolor, setTextcolor] = useState(null);
+  const [textcolor, setTextcolor] = useState(true);
+  const [collapse, setCollapse] = useState(false);
+
 
   const handleInventory =()=>{
     setTextcolor(!textcolor)
@@ -49,7 +51,9 @@ const Sidebar = () => {
       <div className='sidebar-footer'>
         <div className='cork'>CorkOwl</div>
         <div className='copyright'>© 2020 CorkOwl, All Rights Reserved.</div>
+        <div className="collapseButton" onClick={(e) => setCollapse(!collapse)}> - </div>
       </div>
+      
     </div>
   )
 }
