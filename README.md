@@ -27,25 +27,20 @@
 
   Snapshots:
   
-Navbar:
-![](/ScreenShot/mart1.png)
 Landing Page:
-![](/MartImages/mart2.png)
- Footer:
- ![](/MartImages/mart3.png)
-  Signup Page:
-  ![](/MartImages/mart4.png)
-   SignIn Page:
-   ![](/MartImages/mart5.png)
-    Product Page:
-    ![](/MartImages/mart6.png)
-     Product Features Page:
-     ![](/MartImages/mart7.png)
-      Cart Page:
-      ![](/MartImages/mart8.png)
-       Checkout Page:
-       ![](/MartImages/mart9.png)
-        Payment Page:
-        ![](/MartImages/mart10.png)
-         Payment Successful Page:
-         ![](/MartImages/mart11.png)
+![](/ScreenShots/landingpage.png)
+Navbar:
+![](/ScreenShots/navbar.png)
+ Sidebar:
+ ![](/ScreenShots/sidebar.png)
+ <br />
+  Overview Cards:
+  ![](/ScreenShots/card.png)
+   Graphs:
+   ![](/ScreenShots/graph.png)
+    Data:
+    ![](/ScreenShots/data.png)
+     Data Expanding:
+     ![](/ScreenShots/expand.png)
+      Data color change:
+      ![](/ScreenShots/checkbox.png)
