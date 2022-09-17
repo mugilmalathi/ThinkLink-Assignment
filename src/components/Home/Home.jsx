@@ -6,6 +6,7 @@ import "../Responsive/responsive.scss"
 
 import Overview from './Overview'
 import OverviewCards from './OverviewCards'
+import Graph from './Graph'
 
 const Home = () => {
 
@@ -15,6 +16,7 @@ const Home = () => {
       <div className='content'>
         <Overview />
         <OverviewCards />
+        <Graph />
       </div>
     </div>
   )

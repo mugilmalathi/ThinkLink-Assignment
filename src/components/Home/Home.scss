@@ -53,6 +53,7 @@
     margin-right: 10%;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
 }
 .cards{
     width: 95%;
@@ -138,4 +139,163 @@
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     // font-weight: bold;
+}
+
+.graph1{
+    width: 95%;
+    margin: auto;
+    height: 10vh;
+    display: flex;
+    border: 1px solid #f1f1f6;
+    // border: 1px solid red;
+}
+
+.sales{
+    width: 95%;
+    margin: auto;
+    padding-left: 2%;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 3%;
+}
+
+.graph1-left{
+    width: 30%;
+    padding: 1%;
+}
+.graph1-left>div:nth-child(1){
+    font-weight: bold;
+    padding-left: 5%;
+}
+.graph1-left>div:nth-child(2){
+    font-size: small;
+    color: #8C8CA1;
+    padding-left: 5%;
+}
+
+.refresh{
+    width: 15px;
+}
+
+.graph1>div:nth-child(2){
+    color: #8C8CA1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 40%;
+}
+.graph1>div:nth-child(2)>span{
+    padding-left: 10px;
+}
+
+.graph1>div:nth-child(3){
+    color: #8C8CA1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 5%;
+}
+
+.graph1>div:nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+.graph1>div:nth-child(4)>select{
+    border: 1px solid transparent;
+
+}
+.graph2{
+    width: 95%;
+    margin: auto;
+    height: 55vh;
+    display: flex;
+    border: 1px solid #f1f1f6;
+    // border: 1px solid red;
+}
+.graph2-left{
+    width: 80%;
+}
+.graph2-right{
+    width: 20%;
+    border: 1px solid #f1f1f6;
+    // padding: 1%;
+}
+.graph2-right>div:nth-child(1){
+    color: #8C8CA1;
+    padding-left: 5%;
+    padding-top: 10%;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.graph2-right>div:nth-child(2){
+    color: #811434;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.graph2-right>div:nth-child(3){
+    color: #2FCA72;
+    padding-left: 5%;
+    // padding-top: 5%;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.graph2-right>div:nth-child(4){
+    color: #8C8CA1;
+    padding-left: 5%;
+    padding-top: 10%;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.graph2-right>div:nth-child(5){
+    color: #000000;
+    padding-left: 5%;
+    // padding-top: 5%;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.graph2-left>div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+}
+.graph2-left>div:nth-child(1)>div:nth-child(1){
+    color: #000000;
+    padding-left: 5%;
+    // padding-top: 5%;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.graph2-left>div:nth-child(1)>div:nth-child(2){
+    display: flex;
+    margin-right: 2%;
+    justify-content: space-between;
+}
+.graph2-left>div:nth-child(1)>div:nth-child(2)>img{
+    width: 20px;
+}
+.graph2-left>div:nth-child(1)>div:nth-child(2)>span{
+    padding-left: 10px;
+    // padding-right: 1%;
+    
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+.graph2-left>div:nth-child(2){
+    padding-left: 5%;
+    color: #2FCA72;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.graph2-left>div:nth-child(3){
+    padding-left: 5%;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5%;
 }

@@ -5,6 +5,7 @@
     }
     .search{
         width: 200px;
+        border: 1px solid red;
     }
     .searchbar{
         width: 40%;
@@ -19,25 +20,9 @@
     }
     .account>div:nth-child(2){
         // border: 1px solid red;
-        font-size: 13px;
+        font-size: 10px;
+        color: red;
     }
-    .home{
-        border: 1px solid red;
-    }
-    .sidebar-nav{
-        font-size: small;
-    }
-    .sidebar{
-        border: 1px solid red;
-    }
-    .content{
-        width: 120%;
-        border: 1px solid red;
-    }
-    .cards{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
+    
 
 }
