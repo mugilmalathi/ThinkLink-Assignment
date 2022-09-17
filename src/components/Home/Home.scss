@@ -7,9 +7,9 @@
 }
 .content{
     width: 80vw;
-    height: 100vh;
+    // height: 100vh;
     margin-left: 310px;
-    border: 1px solid teal;
+    // border: 1px solid teal;
 }
 .slide{
     width: 30px;
@@ -298,4 +298,109 @@
     padding-left: 5%;
     font-family: 'Open Sans', sans-serif;
     margin-top: 5%;
+}
+.data{
+    width: 95%;
+    margin: auto;
+    height: 100vh;
+    margin-top: 5%;
+    // border: 1px solid red;
+}
+
+.inven{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    padding-left: 2%;
+}
+
+.table-map{
+    width: 95%;
+    margin: auto;
+    height: 90%;
+    // border: 1px solid teal;
+    margin-top: 2%;
+}
+
+.title{
+    font-size: small;
+    color: #000000;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.title-data{
+    font-size: small;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid red;
+    height: 15vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title>div:nth-child(1){
+    width: 10%;
+}
+.title>div:nth-child(2){
+    width: 30%;
+}
+.title>div:nth-child(3){
+    width: 10%;
+}
+.title>div:nth-child(4){
+    width: 10%;
+}
+.title>div:nth-child(5){
+    width: 10%;
+}
+.title>div:nth-child(6){
+    width: 20%;
+}
+.title>div:nth-child(7){
+    width: 10%;
+}
+.title>div:nth-child(8){
+    width: 10%;
+}
+
+.title-data>div:nth-child(1){
+    width: 10%;
+}
+.title-data>div:nth-child(2)>div:nth-child(2){
+    font-size: small;
+    color: #8C8CA1;
+}
+.title-data>div:nth-child(2){
+    width: 30%;
+}
+.title-data>div:nth-child(3){
+    width: 10%;
+}
+.title-data>div:nth-child(4){
+    width: 10%;
+    color: #8C8CA1;
+}
+.title-data>div:nth-child(5){
+    width: 10%;
+    color: #8C8CA1;
+}
+.title-data>div:nth-child(6){
+    width: 20%;
+    color: #8C8CA1;
+}
+.title-data>div:nth-child(7){
+    width: 10%;
+    color: #8C8CA1;
+}
+.title-data>div:nth-child(8){
+    width: 10%;
+}
+input[type=checkbox]{
+    accent-color: #EF4859;
 }

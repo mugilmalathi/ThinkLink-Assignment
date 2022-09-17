@@ -7,6 +7,7 @@ import "../Responsive/responsive.scss"
 import Overview from './Overview'
 import OverviewCards from './OverviewCards'
 import Graph from './Graph'
+import Datamap from './Datamap'
 
 const Home = () => {
 
@@ -17,6 +18,7 @@ const Home = () => {
         <Overview />
         <OverviewCards />
         <Graph />
+        <Datamap />
       </div>
     </div>
   )
