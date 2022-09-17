@@ -9,6 +9,7 @@ import customers from "../Assets/Svg/customers.svg"
 import reports from "../Assets/Svg/reports.svg"
 import settings from "../Assets/Svg/settings.svg"
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
 
@@ -25,27 +26,27 @@ const Sidebar = () => {
       <div className='sidebar-nav'>
           <div className='dashboard' style={{background: textcolor ? "#F7F1F3" : "#FFFFFF", borderRight:`5px solid ${textcolor ? "#811434" : "#FFFFFF"}`}} onClick={handleInventory}>
             <div><BiLaptop style={{color: textcolor ? "#811434" : "#485572"}}/></div>
-            <div style={{color: textcolor ? "#811434" : "#485572"}}>Dashboard</div>
+            <div style={{color: textcolor ? "#811434" : "#485572"}}><Link to="/dashboard">Dashboard</Link></div>
           </div>
           <div className='inventory'>
             <div><img src={inventory} alt="" /></div>
-            <div>Inventory</div>
+            <div><Link to="/inventory">Inventory</Link></div>
           </div>
           <div  className='orders'>
             <div><img src={orders} alt="" /></div>
-            <div>Orders</div>
+            <div><Link to="/orders">Orders</Link></div>
           </div>
           <div  className='customers'>
             <div><img src={customers} alt="" /></div>
-            <div>Customers</div>
+            <div><Link to="/customers">Customers</Link></div>
           </div>
           <div  className='reports'>
             <div><img src={reports} alt="" /></div>
-            <div>Reports</div>
+            <div><Link to="/reports">Reports</Link></div>
           </div>
           <div  className='settings'>
             <div><img src={settings} alt="" /></div>
-            <div>Settings</div>
+            <div><Link to="/settings">Settings</Link></div>
           </div>
       </div>
       <div className='sidebar-footer'>
