@@ -9,7 +9,7 @@ const Data =[
         volume : "Standard (750 mL)",
         cost : "$56.95",
         price : "$59.95",
-        class : "one"
+        class : "title-data1"
     },
     {
         id : "2",
@@ -21,7 +21,7 @@ const Data =[
         volume : "Magnum (1500 mL)",
         cost : "$71.95",
         price : "$72.95",
-        class : "two"
+        class : "title-data2"
     },
     {
         id : "3",
@@ -33,7 +33,7 @@ const Data =[
         volume : "Standard (750 mL)",
         cost : "$139.95",
         price : "$150.00",
-        class : "three"
+        class : "title-data3"
     },
     {
         id : "4",
@@ -45,7 +45,7 @@ const Data =[
         volume : "Odd Ball (5000 mL)",
         cost : "$56.95",
         price : "$59.95",
-        class : "four"
+        class : "title-data4"
     },
     {
         id : "5",
@@ -57,7 +57,7 @@ const Data =[
         volume : "Magnum (1500 mL)",
         cost : "$79.95",
         price : "$92.95",
-        class : "five"
+        class : "title-data5"
     },
     {
         id : "6",
@@ -69,7 +69,7 @@ const Data =[
         volume : "Odd Ball (5000 mL)",
         cost : "$54.95",
         price : "$59.95",
-        class : "six"
+        class : "title-data6"
     },
     {
         id : "7",
@@ -81,7 +81,7 @@ const Data =[
         volume : "Regular (750 mL)",
         cost : "$56.95",
         price : "$59.95",
-        class : "seven"
+        class : "title-data7"
     }
 ]
 
